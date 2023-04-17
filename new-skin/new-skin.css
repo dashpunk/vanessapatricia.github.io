@@ -1525,7 +1525,7 @@ input[type="file"] {
 
 .content.blog .box-item .desc {
 	padding-bottom: 0;
-	text-align: center;
+	text-align: center; 
 }
 
 .content.blog .box-item .desc .name {
