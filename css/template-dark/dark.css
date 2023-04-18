@@ -178,6 +178,8 @@ textarea:focus:-ms-input-placeholder {
 	color: rgba(255, 255, 255, 0.85);
 }
 
+
+.card-started .profile .social a .fa,
 .card-started .profile .social a .ion,
 .card-started .profile .social a .fab,
 .card-started .profile .social a .fas {

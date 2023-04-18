@@ -13,7 +13,7 @@ window.addEventListener('load', function() {
 document.getElementById('btn-toggle').addEventListener('click', function() {
     console.log('change css.');
     // Obtém o elemento html que representa o link de CSS
-    var cssLink = document.querySelector('link[href="css/new-skin/new-skin.css"]');
+    var cssLink = document.querySelector('link[data-theme="default"]');
   
     // Verifica se o link atual é o tema padrão ou o tema escuro
     if (cssLink.getAttribute('href') == 'css/new-skin/new-skin.css') {
