@@ -898,3 +898,24 @@ textarea.error::-webkit-input-placeholder {
     -webkit-transform: scale(1);
   }
 }
+
+
+/* Estilo padrão do botão */
+.toggle-button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 999;
+}
+
+/* Estilo do botão quando o tema é escuro */
+.dark-theme .toggle-button {
+  background-color: #333;
+  color: #fff;
+}
