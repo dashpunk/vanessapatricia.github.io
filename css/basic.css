@@ -942,3 +942,28 @@ textarea.error::-webkit-input-placeholder {
   color: #fff !important;
   border-bottom: none !important;
 }
+
+.toggle-button, button:hover {
+  border-bottom: 0px solid #c49603;
+}
+
+@media (max-width: 560px) {
+  .toggle-button {
+    color: #C49603 !important;
+    top: 3px;
+  }
+
+  .dark-theme .toggle-button {
+    color: #C49603 !important;
+    top: 3px;
+  }
+
+  .dark-theme .toggle-button, button:focus {
+    color: #C49603 !important;
+    top: 3px;
+  }
+
+  .toggle-button, button:hover {
+    border-bottom: 0px solid #c49603;
+  }
+}
