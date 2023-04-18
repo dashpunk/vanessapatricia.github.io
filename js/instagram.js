@@ -10,6 +10,7 @@ window.addEventListener('load', function() {
   
 
 // Adiciona a função de alternar tema ao botão de alternar
+/*
 document.getElementById('btn-toggle').addEventListener('click', function() {
     // Obtém o elemento html que representa o link de CSS
     var cssLink = document.querySelector('link[data-theme="default"]');
@@ -30,4 +31,4 @@ document.getElementById('btn-toggle').addEventListener('click', function() {
     icon.classList.toggle('fa-sun-o');
     icon.classList.toggle('fa-moon-o');
   });
-  
+  */
