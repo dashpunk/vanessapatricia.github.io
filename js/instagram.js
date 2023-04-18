@@ -11,7 +11,6 @@ window.addEventListener('load', function() {
 
 // Adiciona a função de alternar tema ao botão de alternar
 document.getElementById('btn-toggle').addEventListener('click', function() {
-    console.log('change css.');
     // Obtém o elemento html que representa o link de CSS
     var cssLink = document.querySelector('link[data-theme="default"]');
   
